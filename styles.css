@@ -83,6 +83,12 @@ h1 {
     padding: 8px 32px;
     border: none;
     border-radius: 5px;
+    transition: all 0.3s;
+}
+.button button:hover {
+    background-color: #f9faf8;
+    color:#3882f6;
+    cursor: pointer;
 }
 /* main  */
 
