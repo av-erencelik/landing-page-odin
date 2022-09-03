@@ -35,8 +35,18 @@ header {
     text-decoration: none;
     margin-left: 16px;
 }
+.nav-link a:hover {
+    border-bottom:2px solid #E5E7EB
+}
 .logo  {
     font-size: 24px;
+}
+.logo i {
+    transition: all 0.3s;
+}
+.logo:hover {
+    color: #9a9ca0;
+    cursor: pointer;
 }
 
 /* hero */
@@ -123,4 +133,43 @@ h2 {
 }
 .quote {
     padding: 36px 0;
+}
+/* footer  */
+footer {
+    margin-top: 36px;
+    margin-bottom: 16px;
+}
+.footer {
+    background-color: #3882f6;
+    display: flex;
+    padding: 36px;
+    align-items: center;
+    border-radius: 5px;
+}
+.footer-text {
+    flex: 3;
+    color: #f9faf8;
+    padding: 0 36px;
+}
+.footer-text p {
+    color: #E5E7EB;
+}
+.footer-button  button{
+    padding: 8px 32px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    border: 2px solid #f9faf8;
+    color: #f9faf8;
+    transition: all 0.3s;
+}
+.footer-button button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+    cursor: pointer;
+}
+.footer-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
 }
